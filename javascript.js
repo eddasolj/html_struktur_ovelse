@@ -10,10 +10,14 @@ console.log(main);
 const footer = document.querySelector("footer");
 console.log(footer);
 
-const toptitle = document.querySelector("h1");
+const toptitle = document.querySelector("h1"); /// to change text ////
 console.log(toptitle);
-toptitle.textContent = "changed title"; /// to change text ////
+toptitle.textContent = "changed title";
 
-const test = document.querySelector("p");
+const test = document.querySelector("p"); /// to change element in i element ////
 console.log(test);
-test.innerHTML = "<h4>nytekst</h4>"; /// to change element in i element ////
+test.innerHTML = "<h4>nytekst</h4>";
+
+const pic = document.querySelector("img"); /// change image ////
+pic.src = "https://picsum.photos/id/17/200/300/";
+pic.alt = "dette er en alt tekst";
