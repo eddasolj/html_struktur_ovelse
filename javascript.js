@@ -20,4 +20,4 @@ test.innerHTML = "<h4>nytekst</h4>";
 
 const pic = document.querySelector("img"); /// change image ////
 pic.src = "https://picsum.photos/id/17/200/300/";
-pic.alt = "dette er en alt tekst";
+pic.alt = "dette er en alt tekst, so here I can change the text";
